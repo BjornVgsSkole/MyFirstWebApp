@@ -1,15 +1,13 @@
 // Import Express.js module
 import express from 'express';
-//const express = require('express');
+
+import path from 'path';
+const __dirname = path.resolve();
 
 // Initialize the Express application
 const app = express();
 
-import path from 'path';
-//const path = require('path');
-
 // Define the port number for the server to listen on
-//const port = 8080;
 const port = parseInt(process.env.PORT) || 8080;
 
 // Define a route for the root URL ('/') and specify the response
