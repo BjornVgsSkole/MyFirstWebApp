@@ -6,7 +6,8 @@ const app = express();
 const path = require('path');
 
 // Define the port number for the server to listen on
-const port = 8080;
+//const port = 8080;
+const port = parseInt(process.env.PORT) || 8080;
 
 // Define a route for the root URL ('/') and specify the response
 app.get('/', (req, res) => {
