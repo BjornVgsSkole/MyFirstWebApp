@@ -1,9 +1,12 @@
 // Import Express.js module
-const express = require('express');
+import express from 'express';
+//const express = require('express');
 
 // Initialize the Express application
 const app = express();
-const path = require('path');
+
+import path from 'path';
+//const path = require('path');
 
 // Define the port number for the server to listen on
 //const port = 8080;
